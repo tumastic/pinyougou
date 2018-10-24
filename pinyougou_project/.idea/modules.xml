@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/itcast65/dubbodemo_service/dubbodemo_service.iml" filepath="$PROJECT_DIR$/itcast65/dubbodemo_service/dubbodemo_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/dubbodemo_web/dubbodemo_web.iml" filepath="$PROJECT_DIR$/itcast65/dubbodemo_web/dubbodemo_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/itcast65.iml" filepath="$PROJECT_DIR$/itcast65/itcast65.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/pyg_common.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/pyg_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_dao/pyg_dao.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_dao/pyg_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/pyg_manager_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/pyg_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_parent.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_pojo/pyg_pojo.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_pojo/pyg_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service/pyg_sellergoods_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service/pyg_sellergoods_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/pyg_shop_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/pyg_shop_web.iml" />
+    </modules>
+  </component>
+</project>

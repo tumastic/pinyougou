@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/dubbodemo_service" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/dubbodemo_web" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/itcast65/dubbodemo_service/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/dubbodemo_web/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
