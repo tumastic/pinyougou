@@ -148,7 +148,7 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService,it
 			}
 		)
 
-        typeTemplateService.findSpecList(newValue).success(
+        typeTemplateService.findSpecList(newValue).success(  //模板id
             function(response) {
                 $scope.specList=response;
             }

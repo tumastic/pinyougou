@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/itcast65/dubbodemo_web" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

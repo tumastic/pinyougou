@@ -97,7 +97,7 @@
 		                           </div>
 		                           
 		                           <div class="col-md-2 title">品牌</div>
-		                           <div class="col-md-10 data">
+		                           <div class="col-md-10 data">                                        <!-- 品牌id通过模板查出,进行遍历输出,并将中文名代替id显示-->
 		                              <select class="form-control" ng-model="entity.goods.brandId" ng-options="template.id as template.text for template in typeTemplate.brandIds"></select>
 		                           </div>
 		
@@ -113,7 +113,8 @@
 			                               <input ng-model="entity.goods.price" type="text" class="form-control"  placeholder="价格" value="">
 		                           	   </div>
 		                           </div>
-		                           
+
+									<!-- 以下三个通过goods_desc来查找-->
 		                           <div class="col-md-2 title editer">商品介绍</div>
                                    <div class="col-md-10 data editer">
                                        <textarea  name="content" style="width:800px;height:400px;visibility:hidden;" ></textarea>
@@ -194,7 +195,7 @@
                             	
 	                                <div class="row data-type">
 	                                
-		                                <div ng-repeat="spec in specList">
+		                                <div ng-repeat="spec in specList"><!-- 遍历模板-->
 			                                <div class="col-md-2 title">{{spec.text}}</div>
 					                        <div class="col-md-10 data">
 					                               
