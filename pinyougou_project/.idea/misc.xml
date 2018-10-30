@@ -4,6 +4,8 @@
     <file type="web" url="file://$PROJECT_DIR$/itcast65/dubbodemo_service" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/dubbodemo_web" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_service" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_web" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web" />
   </component>
@@ -13,7 +15,17 @@
         <option value="$PROJECT_DIR$/itcast65/dubbodemo_service/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/dubbodemo_web/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_service/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_web/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_solr_util/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/itcast65/fastDFSDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_test/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager">

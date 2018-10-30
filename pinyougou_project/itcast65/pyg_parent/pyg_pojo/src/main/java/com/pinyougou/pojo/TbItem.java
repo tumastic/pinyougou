@@ -1,16 +1,19 @@
 package com.pinyougou.pojo;
 
+import org.apache.solr.client.solrj.beans.Field;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
-
+//如果属性与配置文件定义的域名称不一致，需要在注解中指定域名称。
 public class TbItem implements Serializable {
+    @Field
     private Long id;
-
+    @Field("item_title")
     private String title;
 
     private String sellPoint;
-
+    @Field("item_price")
     private BigDecimal price;
 
     private Integer stockCount;
@@ -18,7 +21,7 @@ public class TbItem implements Serializable {
     private Integer num;
 
     private String barcode;
-
+    @Field("item_image")
     private String image;
 
     private Long categoryid;
@@ -36,19 +39,19 @@ public class TbItem implements Serializable {
     private BigDecimal marketPrice;
 
     private String isDefault;
-
+    @Field("item_goodsid")
     private Long goodsId;
 
     private String sellerId;
 
     private String cartThumbnail;
-
+    @Field("item_brand")
     private String category;
 
     private String brand;
 
     private String spec;
-
+    @Field("item_seller")
     private String seller;
 
     public Long getId() {
