@@ -1,0 +1,40 @@
+@Service("DemoImplService")
+public class DemoImpl implements DemoInterf {
+    @Resource
+    private DemoBiz demoBiz;
+
+    @Override
+    public String add(DataVo dataVo) throws ProfreesionOrganizationException {
+            String s = demoBiz.add(dataVo);
+            return s;
+    }
+}
+配置没有贴全，主要记录下写测试类遇到的问题和解决方法。
+问题1
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalArgumentException: A ServletContext is required to configure default servlet handling
+解决：在测试类上加注解
+@WebAppConfiguration
+测试环境使用，用来表示测试环境使用的ApplicationContext将是WebApplicationContext类型的
+
+问题2
+@Transactional  不写这个DB 不回滚
+@TransactionConfiguration(transactionManager = "txManager", defaultRollback = true)
+
+测试类代码：
+@WebAppConfiguration
+ @Transactional
+ @TransactionConfiguration(transactionManager = "txManager", defaultRollback = true)
+ @ContextConfiguration(locations={"classpath*:/applicationContext.xml"})
+ @RunWith(SpringJUnit4ClassRunner.class)
+ public class DemoImplTest {
+
+    @Autowired
+    private DemoInterf demoImplService;
+
+    @Test
+    public void testAdd() throws Exception {
+        DataVo data = new DataVo(111,"test");
+        demoImplService.add(data);
+    }
+}
