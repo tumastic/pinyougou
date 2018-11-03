@@ -13,6 +13,12 @@
           <element id="archive" name="pyg_pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="pyg_pojo" />
           </element>
+          <element id="archive" name="pyg_content_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="pyg_content_interface" />
+          </element>
+          <element id="archive" name="pyg_common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="pyg_common" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.4.RELEASE" />

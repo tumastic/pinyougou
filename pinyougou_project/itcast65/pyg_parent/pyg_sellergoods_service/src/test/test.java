@@ -5,17 +5,10 @@ import com.pinyougou.sellergoods.service.BrandService;
 import com.pinyougou.sellergoods.service.impl.BrandServiceImpl;
 import org.junit.*;
 import org.junit.runner.RunWith;
-import org.mockito.ArgumentMatcher;
-import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
-import org.mockito.stubbing.Answer;
-import org.mockito.stubbing.OngoingStubbing;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import static org.mockito.Mockito.spy;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"/applicationContext-test.xml"})
@@ -39,7 +32,7 @@ public class test {
         //Assert.assertEquals(brandService.findOne(2L),tbBrand1);*/
 
        // TbBrand tbBrand = tbBrandMapper.selectByPrimaryKey(1L);
-        TbBrand tbBrand = brandService.findOne(2L);
+        TbBrand tbBrand = brandService.findOne(5L);
         System.out.println(tbBrand);
 
     }

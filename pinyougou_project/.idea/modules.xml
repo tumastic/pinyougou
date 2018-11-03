@@ -4,12 +4,20 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/itcast65/dubbodemo_service/dubbodemo_service.iml" filepath="$PROJECT_DIR$/itcast65/dubbodemo_service/dubbodemo_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/dubbodemo_web/dubbodemo_web.iml" filepath="$PROJECT_DIR$/itcast65/dubbodemo_web/dubbodemo_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/freemarkerDemo/freemarkerDemo.iml" filepath="$PROJECT_DIR$/itcast65/freemarkerDemo/freemarkerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/itcast65.iml" filepath="$PROJECT_DIR$/itcast65/itcast65.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/jmsDemo/jmsDemo.iml" filepath="$PROJECT_DIR$/itcast65/jmsDemo/jmsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/jmsDemoListener/jmsDemoListener.iml" filepath="$PROJECT_DIR$/itcast65/jmsDemoListener/jmsDemoListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/pyg_common.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/pyg_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_interface/pyg_content_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_interface/pyg_content_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service/pyg_content_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service/pyg_content_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_dao/pyg_dao.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_dao/pyg_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/pyg_manager_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/pyg_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_interface/pyg_page_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_interface/pyg_page_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service/pyg_page_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service/pyg_page_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_parent.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_pojo/pyg_pojo.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_pojo/pyg_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_portal_web/pyg_portal_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_portal_web/pyg_portal_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_interface/pyg_search_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_interface/pyg_search_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_service/pyg_search_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_service/pyg_search_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_web/pyg_search_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_web/pyg_search_web.iml" />
@@ -17,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service/pyg_sellergoods_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service/pyg_sellergoods_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/pyg_shop_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/pyg_shop_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_solr_util/pyg_solr_util.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_solr_util/pyg_solr_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/springDataRedis/springDataRedis.iml" filepath="$PROJECT_DIR$/itcast65/springDataRedis/springDataRedis.iml" />
     </modules>
   </component>
 </project>

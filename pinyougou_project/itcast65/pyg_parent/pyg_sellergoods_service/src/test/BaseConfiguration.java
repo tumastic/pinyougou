@@ -13,23 +13,24 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"/applicationContext-test.xml"})
+@ContextConfiguration(locations = {"classpath:applicationContext-test.xml"})
+//@ContextConfiguration(locations = {"classpath*:spring/applicationContext-*.xml"})
 public class BaseConfiguration {
 
-   @Autowired
+   @Autowired(required = false)
     public BrandService brand;
 
-    @Autowired
+    @Autowired(required = false)
     public GoodsService goods;
-    @Autowired
+    @Autowired(required = false)
     private ItemCatService itemCat;
-    @Autowired
+    @Autowired(required = false)
     private SellerService seller;
-    @Autowired
+    @Autowired(required = false)
     private SpecificationService specification;
-    @Autowired
+    @Autowired(required = false)
     private TypeTemplateService typeTemplate;
-    @Autowired
+    @Autowired(required = false)
     private UserService user;
 
 

@@ -3,7 +3,10 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/itcast65/dubbodemo_service" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/dubbodemo_web" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_portal_web" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_web" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service" />
@@ -15,10 +18,11 @@
         <option value="$PROJECT_DIR$/itcast65/dubbodemo_service/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/dubbodemo_web/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_service/pom.xml" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_web/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_solr_util/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/springDataRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/freemarkerDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/jmsDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/jmsDemoListener/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

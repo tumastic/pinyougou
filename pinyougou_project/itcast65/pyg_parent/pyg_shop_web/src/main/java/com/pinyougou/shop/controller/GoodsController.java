@@ -1,6 +1,7 @@
 package com.pinyougou.shop.controller;
 import java.util.List;
 
+import com.pinyougou.page.service.ItemPageService;
 import entity.Goods;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,9 +18,15 @@ import entity.Result;
  * @author Administrator
  *
  */
+/*
+* 讲义上提示,增加审核的控制器,审核通过后生成新的商品页面利用freemarker
+* */
 @RestController
 @RequestMapping("/goods")
 public class GoodsController {
+
+	@Reference(timeout = 40000)
+	private ItemPageService itemPageService;
 
 	@Reference
 	private GoodsService goodsService;
@@ -117,6 +124,10 @@ public class GoodsController {
 		String sellerId = SecurityContextHolder.getContext().getAuthentication().getName();
 		goods.setSellerId(sellerId);
 		return goodsService.findPage(goods, page, rows);		
+	}
+	@RequestMapping("/genHtml")
+	public void genHtml(Long goodsId){
+		itemPageService.createItemHtml(goodsId);
 	}
 	
 }

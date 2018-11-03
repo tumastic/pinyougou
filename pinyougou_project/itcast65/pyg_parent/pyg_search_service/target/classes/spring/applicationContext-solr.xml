@@ -17,6 +17,6 @@
    
 	<!-- solr模板，使用solr模板可对索引库进行CRUD的操作 -->
 	<bean id="solrTemplate" class="org.springframework.data.solr.core.SolrTemplate">
-		<constructor-arg ref="solrServer" />
+		<constructor-arg ref="solrServer"/>
 	</bean>
 </beans>

@@ -1,10 +1,13 @@
 package com.pinyougou.pojo;
 
 import org.apache.solr.client.solrj.beans.Field;
+import org.springframework.data.solr.core.mapping.Dynamic;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
+import java.util.Map;
+
 //如果属性与配置文件定义的域名称不一致，需要在注解中指定域名称。
 public class TbItem implements Serializable {
     @Field
@@ -45,14 +48,26 @@ public class TbItem implements Serializable {
     private String sellerId;
 
     private String cartThumbnail;
-    @Field("item_brand")
+    @Field("item_category")
     private String category;
-
+    @Field("item_brand")
     private String brand;
 
     private String spec;
     @Field("item_seller")
     private String seller;
+
+    @Dynamic
+    @Field("item_spec_*")
+    private Map<String,String>specMap;
+
+    public Map<String, String> getSpecMap() {
+        return specMap;
+    }
+
+    public void setSpecMap(Map<String, String> specMap) {
+        this.specMap = specMap;
+    }
 
     public Long getId() {
         return id;

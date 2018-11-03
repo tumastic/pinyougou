@@ -1,4 +1,0 @@
-0:0:0:0:0:0:0:1 - - [30/Oct/2018:19:48:21 +0800] "GET /itemSearch HTTP/1.1" 404 971 http-bio-9104-exec-1 35
-0:0:0:0:0:0:0:1 - - [30/Oct/2018:19:48:21 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9104-exec-3 1
-0:0:0:0:0:0:0:1 - - [30/Oct/2018:19:48:30 +0800] "GET /itemSearch/search HTTP/1.1" 404 985 http-bio-9104-exec-4 7
-0:0:0:0:0:0:0:1 - - [30/Oct/2018:19:49:43 +0800] "GET /itemSearch/search HTTP/1.1" 404 985 http-bio-9104-exec-8 3
