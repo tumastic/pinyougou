@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/casclient_demo" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/casclient_demo0" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/dubbodemo_service" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/dubbodemo_web" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service" />
@@ -11,6 +15,9 @@
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_web" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service" />
     <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sms_web" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_service" />
+    <file type="web" url="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -23,6 +30,9 @@
         <option value="$PROJECT_DIR$/itcast65/freemarkerDemo/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/jmsDemo/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/jmsDemoListener/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/api_demo/alicom-dysms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/casclient_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/casclient_demo0/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

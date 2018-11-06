@@ -36,7 +36,7 @@
 
 <body ng-app="pinyougou" ng-controller="itemController"  ng-init="loadSku()">
 	<!--页面顶部开始-->
-<#include "../webapp/WEB-INF/ftl/head.ftl">
+<#include "head.ftl">
 
 	<!--页面顶部结束-->
 	<div class="py-container">
@@ -545,7 +545,7 @@
 	</div>
 	<!-- 底部栏位 -->
 	<!--页面底部开始-->
-<#include "../webapp/WEB-INF/ftl/foot.ftl">
+<#include "foot.ftl">
 
 <!--页面底部结束-->
 </body>

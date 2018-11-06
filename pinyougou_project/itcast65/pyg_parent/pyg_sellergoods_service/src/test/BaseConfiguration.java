@@ -62,5 +62,11 @@ public class BaseConfiguration {
             System.out.println(one);
         }
     }
-
+   @Test
+    public void  testfinD(){
+       List<TbGoods> all = goods.findAll();
+       for(TbGoods good:all){
+           System.out.println(good);
+       }
+   }
 }

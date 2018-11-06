@@ -24,6 +24,13 @@
         <module>pyg_search_web</module>
         <module>pyg_page_interface</module>
         <module>pyg_page_service</module>
+        <module>pyg_sms_web</module>
+        <module>pyg_user_interface</module>
+        <module>pyg_user_service</module>
+        <module>pyg_user_web</module>
+        <module>pyg_cart_interface</module>
+        <module>pyg_cart_service</module>
+        <module>pyg_cart_web</module>
     </modules>
     <properties>
         <junit.version>4.12</junit.version>

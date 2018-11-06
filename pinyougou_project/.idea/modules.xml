@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/itcast65/api_demo/alicom-dysms-api/alicom-dysms-api.iml" filepath="$PROJECT_DIR$/itcast65/api_demo/alicom-dysms-api/alicom-dysms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/casclient_demo/casclient_demo.iml" filepath="$PROJECT_DIR$/itcast65/casclient_demo/casclient_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/casclient_demo0/casclient_demo0.iml" filepath="$PROJECT_DIR$/itcast65/casclient_demo0/casclient_demo0.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/dubbodemo_service/dubbodemo_service.iml" filepath="$PROJECT_DIR$/itcast65/dubbodemo_service/dubbodemo_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/dubbodemo_web/dubbodemo_web.iml" filepath="$PROJECT_DIR$/itcast65/dubbodemo_web/dubbodemo_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/freemarkerDemo/freemarkerDemo.iml" filepath="$PROJECT_DIR$/itcast65/freemarkerDemo/freemarkerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/itcast65.iml" filepath="$PROJECT_DIR$/itcast65/itcast65.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/jmsDemo/jmsDemo.iml" filepath="$PROJECT_DIR$/itcast65/jmsDemo/jmsDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/jmsDemoListener/jmsDemoListener.iml" filepath="$PROJECT_DIR$/itcast65/jmsDemoListener/jmsDemoListener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_interface/pyg_cart_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_interface/pyg_cart_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/pyg_cart_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/pyg_cart_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/pyg_cart_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/pyg_cart_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/pyg_common.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/pyg_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_interface/pyg_content_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_interface/pyg_content_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service/pyg_content_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service/pyg_content_service.iml" />
@@ -24,7 +30,11 @@
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service/pyg_sellergoods_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service/pyg_sellergoods_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/pyg_shop_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/pyg_shop_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sms_web/pyg_sms_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_sms_web/pyg_sms_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_solr_util/pyg_solr_util.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_solr_util/pyg_solr_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_interface/pyg_user_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_interface/pyg_user_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_service/pyg_user_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_service/pyg_user_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/pyg_user_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/pyg_user_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/springDataRedis/springDataRedis.iml" filepath="$PROJECT_DIR$/itcast65/springDataRedis/springDataRedis.iml" />
     </modules>
   </component>

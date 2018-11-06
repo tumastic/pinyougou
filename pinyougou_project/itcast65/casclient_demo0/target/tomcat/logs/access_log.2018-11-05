@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:08:40:16 +0800] "GET /index.html HTTP/1.1" 302 - http-bio-9001-exec-1 24
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:08:40:27 +0800] "GET /login.html HTTP/1.1" 302 - http-bio-9001-exec-3 5
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:08:44:47 +0800] "GET /index.html HTTP/1.1" 302 - http-bio-9001-exec-1 32
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:08:45:10 +0800] "GET /index.html?ticket=ST-1-KCzy9yDWsJW5NLx3KXFu-cas01.example.org HTTP/1.1" 302 - http-bio-9001-exec-3 238
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:08:45:10 +0800] "GET /index.html;jsessionid=DD5EEDE6F0C5C563945D06E0231ECA97 HTTP/1.1" 200 188 http-bio-9001-exec-5 5
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:08:45:10 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9001-exec-6 3

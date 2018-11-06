@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alicom-dysms-api" />
+        <module name="casclient_demo" />
+        <module name="casclient_demo0" />
         <module name="dubbodemo_service" />
         <module name="dubbodemo_web" />
         <module name="freemarkerDemo" />
         <module name="jmsDemo" />
         <module name="jmsDemoListener" />
+        <module name="pyg_cart_interface" />
+        <module name="pyg_cart_service" />
+        <module name="pyg_cart_web" />
         <module name="pyg_common" />
         <module name="pyg_content_interface" />
         <module name="pyg_content_service" />
@@ -26,16 +32,27 @@
         <module name="pyg_sellergoods_interface" />
         <module name="pyg_sellergoods_service" />
         <module name="pyg_shop_web" />
+        <module name="pyg_sms_web" />
         <module name="pyg_solr_util" />
+        <module name="pyg_user_interface" />
+        <module name="pyg_user_service" />
+        <module name="pyg_user_web" />
         <module name="springDataRedis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alicom-dysms-api" target="1.5" />
+      <module name="api_demo" target="1.5" />
+      <module name="casclient_demo" target="1.8" />
+      <module name="casclient_demo0" target="1.8" />
       <module name="dubbodemo_service" target="1.8" />
       <module name="dubbodemo_web" target="1.8" />
       <module name="freemarkerDemo" target="1.5" />
       <module name="jmsDemo" target="1.5" />
       <module name="jmsDemoListener" target="1.5" />
+      <module name="pyg_cart_interface" target="1.8" />
+      <module name="pyg_cart_service" target="1.8" />
+      <module name="pyg_cart_web" target="1.8" />
       <module name="pyg_common" target="1.8" />
       <module name="pyg_content_interface" target="1.8" />
       <module name="pyg_content_service" target="1.8" />
@@ -52,7 +69,11 @@
       <module name="pyg_sellergoods_interface" target="1.8" />
       <module name="pyg_sellergoods_service" target="1.8" />
       <module name="pyg_shop_web" target="1.8" />
+      <module name="pyg_sms_web" target="1.8" />
       <module name="pyg_solr_util" target="1.8" />
+      <module name="pyg_user_interface" target="1.8" />
+      <module name="pyg_user_service" target="1.8" />
+      <module name="pyg_user_web" target="1.8" />
       <module name="springDataRedis" target="1.8" />
     </bytecodeTargetLevel>
   </component>

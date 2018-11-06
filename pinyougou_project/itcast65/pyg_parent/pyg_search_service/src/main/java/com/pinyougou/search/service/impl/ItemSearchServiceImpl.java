@@ -2,7 +2,9 @@ package com.pinyougou.search.service.impl;
 
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.pinyougou.mapper.TbItemMapper;
 import com.pinyougou.pojo.TbItem;
+import com.pinyougou.pojo.TbItemExample;
 import com.pinyougou.search.service.ItemSearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
@@ -20,6 +22,9 @@ public class ItemSearchServiceImpl implements ItemSearchService {
 
     @Autowired
     private SolrTemplate solrTemplate;
+
+    @Autowired
+    private TbItemMapper itemMapper;
 
     @Override
     public Map search(Map searchMap) {
@@ -146,4 +151,37 @@ public class ItemSearchServiceImpl implements ItemSearchService {
         return resultMap;
 
     }
+    @Override
+    public void addItemToSolr(Long[] goodsId) {
+        //该商品下的所有sku列表
+        for (Long aLong : goodsId) {
+            TbItemExample example = new TbItemExample();
+            example.createCriteria().andGoodsIdEqualTo(aLong);
+            List<TbItem> tbItems = itemMapper.selectByExample(example);
+
+            for (TbItem tbItem : tbItems) {
+                System.out.println("==导入了="+tbItem.getTitle());
+            }
+
+            solrTemplate.saveBeans(tbItems);
+            solrTemplate.commit();
+        }
+    }
+
+    @Override
+    public void removeItemToSolr(Long[] goodsId) {
+
+        for (Long aLong : goodsId) {
+            TbItemExample example = new TbItemExample();
+            example.createCriteria().andGoodsIdEqualTo(aLong);
+            List<TbItem> tbItems = itemMapper.selectByExample(example);
+
+            for (TbItem tbItem : tbItems) {
+                System.out.println("==删除solr中的="+tbItem.getTitle());
+                solrTemplate.deleteById(tbItem.getId()+"");
+            }
+            solrTemplate.commit();
+        }
+    }
 }
+

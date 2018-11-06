@@ -1,0 +1,13 @@
+1.打开CAS入口  casProcessingFileterEntryPoint   配置security登录权限
+  关闭跨域请求拦截
+  设置casfilter位置和单点登出requestSingleLogoutFilter(logoutfilter之前)和singleLogoutFilter(casfilter之前)的位置
+2.CAS入口配置 casProcessingFileterEntryPoint
+  配置登录页面和serviceProperties登录成功跳转页面
+3.casfilter配置
+  casAuthenticationFilter中注入authenticationManager,authenticationManager中注入casAuthenticationProvider
+  casAuthenticationProvider中配置ticketalidator验证器(配置验证地址),配置userDetailsService,配置serviceProperties
+4.登出配置
+  singleLogoutFilter和requestSingleLogoutFilter,requestSingleLogoutFilter配置登出跳转地址,和security登出跳转地址
+
+
+  serviceProperties的作用就是绑定服务成功跳转的地址,绑定到cas和security两个框架中.

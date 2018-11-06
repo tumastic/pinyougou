@@ -35,6 +35,7 @@ com\pinyougou\pojo\TbSeckillOrder.class
 com\pinyougou\pojo\TbBrandExample.class
 com\pinyougou\pojo\TbGoodsDescExample$Criteria.class
 com\pinyougou\pojo\TbUser.class
+entity\Cart.class
 com\pinyougou\pojo\TbSpecificationExample$GeneratedCriteria.class
 com\pinyougou\pojo\TbItemCatExample$GeneratedCriteria.class
 com\pinyougou\pojo\TbGoodsExample$Criteria.class

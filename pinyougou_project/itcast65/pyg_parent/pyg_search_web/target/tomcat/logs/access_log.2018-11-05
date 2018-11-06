@@ -1,0 +1,15 @@
+127.0.0.1 - - [01/Jan/1970:07:59:59 +0800] "-" 400 - null 0
+127.0.0.1 - - [01/Jan/1970:07:59:59 +0800] "-" 400 - null 0
+127.0.0.1 - - [01/Jan/1970:07:59:59 +0800] "-" 400 - null 0
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:46:03 +0800] "GET /search.html HTTP/1.1" 304 - http-bio-9104-exec-5 82
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:46:03 +0800] "GET /js/base_pagination.js HTTP/1.1" 304 - http-bio-9104-exec-5 3
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:46:03 +0800] "GET /js/service/searchService.js HTTP/1.1" 304 - http-bio-9104-exec-6 4
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:46:03 +0800] "GET /js/controller/searchController.js HTTP/1.1" 304 - http-bio-9104-exec-7 27
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:46:03 +0800] "GET /%7B%7Bitem.image%7D%7D HTTP/1.1" 404 995 http-bio-9104-exec-7 5
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:46:03 +0800] "GET /assets/img/favicon.ico HTTP/1.1" 404 995 http-bio-9104-exec-5 1
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:46:05 +0800] "POST /itemSearch/search.do HTTP/1.1" 500 13526 http-bio-9104-exec-7 1544
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:46:05 +0800] "POST /itemSearch/search.do HTTP/1.1" 500 13526 http-bio-9104-exec-6 1682
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:47:03 +0800] "GET /%7B%7Bitem.image%7D%7D HTTP/1.1" 404 995 http-bio-9104-exec-4 1
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:47:03 +0800] "GET /assets/img/favicon.ico HTTP/1.1" 404 995 http-bio-9104-exec-2 1
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:47:03 +0800] "POST /itemSearch/search.do HTTP/1.1" 500 13526 http-bio-9104-exec-4 186
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:13:47:03 +0800] "POST /itemSearch/search.do HTTP/1.1" 500 13526 http-bio-9104-exec-3 330

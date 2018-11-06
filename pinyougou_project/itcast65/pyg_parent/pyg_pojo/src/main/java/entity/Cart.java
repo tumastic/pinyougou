@@ -1,0 +1,37 @@
+package entity;
+
+import com.pinyougou.pojo.TbOrderItem;
+
+import java.io.Serializable;
+import java.util.List;
+
+public class Cart implements Serializable {
+
+    private String sellerId;  //购物车中的商家id
+    private String sellerName;//购物车中显示的商家名称
+    List<TbOrderItem> orderItemList; //购物车中的明细
+
+    public String getSellerId() {
+        return sellerId;
+    }
+
+    public void setSellerId(String sellerId) {
+        this.sellerId = sellerId;
+    }
+
+    public String getSellerName() {
+        return sellerName;
+    }
+
+    public void setSellerName(String sellerName) {
+        this.sellerName = sellerName;
+    }
+
+    public List<TbOrderItem> getOrderItemList() {
+        return orderItemList;
+    }
+
+    public void setOrderItemList(List<TbOrderItem> orderItemList) {
+        this.orderItemList = orderItemList;
+    }
+}

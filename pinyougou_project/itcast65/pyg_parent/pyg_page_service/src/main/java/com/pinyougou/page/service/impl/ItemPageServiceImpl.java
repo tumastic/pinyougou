@@ -47,7 +47,7 @@ public class ItemPageServiceImpl implements ItemPageService {
         try {
             //configurer已经配置了模版所在路径在配置文件的bean上
             Configuration configuration = configurer.getConfiguration();
-           // configuration.setDirectoryForTemplateLoading(new File("D:\\temp\\git\\repository_pinyougou\\pinyougou_project\\itcast65\\pyg_parent\\pyg_page_service\\src\\main\\webapp\\WEB-INF\\ftl"));
+            configuration.setDirectoryForTemplateLoading(new File("D:\\temp\\git\\repository_pinyougou\\pinyougou_project\\itcast65\\pyg_parent\\pyg_page_service\\src\\main\\webapp\\WEB-INF\\ftl"));
             Template template = configuration.getTemplate("item.ftl");
 
 
@@ -86,6 +86,11 @@ public class ItemPageServiceImpl implements ItemPageService {
             e.printStackTrace();
             return false;
         }
+    }
+    public void deleItemHtml(Long[] goodsId){
+      for(Long aLong:goodsId){
+          new File(pagedir+aLong+".html").delete();
+      }
     }
 
 }
