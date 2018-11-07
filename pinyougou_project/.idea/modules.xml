@@ -19,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service/pyg_content_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service/pyg_content_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_dao/pyg_dao.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_dao/pyg_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/pyg_manager_web.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/pyg_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_interface/pyg_order_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_interface/pyg_order_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/pyg_order_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/pyg_order_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_interface/pyg_page_interface.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_interface/pyg_page_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service/pyg_page_service.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service/pyg_page_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_parent.iml" filepath="$PROJECT_DIR$/itcast65/pyg_parent/pyg_parent.iml" />

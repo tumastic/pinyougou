@@ -10,9 +10,11 @@ import util.FastDFSClient;
 @RestController
 public class UploadController {
 
-    private static String service_url = "http://192.168.25.133/";
+    @Value("${FILE_SERVER_URL}")
+    private static String service_url ;//= "http://192.168.25.133/";
 
     @RequestMapping("/upload")
+    //MultipartFile是springMVC提供的文件上传的类
     public Result upload(MultipartFile file){
         try {
             String filename = file.getOriginalFilename();//全文件名称

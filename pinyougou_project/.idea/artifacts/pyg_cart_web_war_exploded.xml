@@ -16,6 +16,12 @@
           <element id="archive" name="pyg_common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="pyg_common" />
           </element>
+          <element id="archive" name="pyg_user_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="pyg_user_interface" />
+          </element>
+          <element id="archive" name="pyg_order_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="pyg_order_interface" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.4.RELEASE" />

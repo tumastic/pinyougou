@@ -6,6 +6,7 @@ import entity.Cart;
 import entity.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import util.CookieUtil;
@@ -67,7 +68,14 @@ public class CartController {
 
 
     @RequestMapping("/addItemToCartList")
+    @CrossOrigin(origins="http://localhost:9105",allowCredentials = "true")
     public Result addItemToCartList(Long itemId, Integer num){
+
+         /* //解决方法一：http://localhost:9109也可设置为*，但是*号不能用cookie,允许访问的域
+        response.setHeader("Access-Control-Allow-Origin", "http://localhost:9105");
+        //----如果用了cookie信息-----，必须加后面这句话，如果不用cookie可以不加这句话
+        response.setHeader("Access-Control-Allow-Credentials", "true");*/
+
 
         String singleUUid;
         String name = SecurityContextHolder.getContext().getAuthentication().getName();

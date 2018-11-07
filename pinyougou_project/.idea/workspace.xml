@@ -36,6 +36,8 @@
     <ignored path="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_interface/target/" />
     <ignored path="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/target/" />
     <ignored path="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/target/" />
+    <ignored path="$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_interface/target/" />
+    <ignored path="$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,16 +70,30 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="pinyougoudb: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pinyougoudb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pinyougoudb: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="tb_order: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pinyougoudb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pinyougoudb: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="tb_order_item: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/cart/controller/CartController.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/resources/config/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="49" column="43" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="43" />
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -86,49 +102,53 @@
       <file leaf-file-name="CartServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/src/main/java/com/pinyougou/cart/service/impl/CartServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1220">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="138">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FastDFSClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/src/main/java/util/FastDFSClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/resources/spring/spring-security.xml">
+      <file leaf-file-name="goodsController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/webapp/js/controller/goodsController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1472">
-              <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/resources/spring/spring-security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+            <state relative-caret-position="493">
+              <caret line="215" column="70" lean-forward="false" selection-start-line="215" selection-start-column="70" selection-end-line="215" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/resources/spring/springmvc.xml">
+        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="677">
+              <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDetailServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/user/service/UserDetailServiceImpl.java">
+      <file leaf-file-name="UploadController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/UploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="207">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#391#411#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,16 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service/src/main/java/com/pinyougou/page/service/impl/ItemPageDeleteListener.java" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_interface/src/main/java/com/pinyougou/page/service/ItemPageService.java" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_service/pom.xml" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_interface/src/main/java/com/pinyougou/search/service/ItemSearchService.java" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_service/src/main/java/com/pinyougou/search/service/impl/ItemSearchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service/src/main/java/com/pinyougou/page/service/impl/ItemPageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service/src/main/webapp/WEB-INF/ftl/item.ftl" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/admin/goods.html" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service/src/test/BaseConfiguration.java" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_pojo/src/main/java/com/pinyougou/pojo/TbGoods.java" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/login.html" />
@@ -224,13 +234,23 @@
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_interface/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/pom.xml" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/src/main/java/util/CookieUtil.java" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_interface/src/main/java/com/pinyougou/cart/service/CartService.java" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/src/main/java/com/pinyougou/cart/service/impl/CartServiceImpl.java" />
-        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/cart/controller/CartController.java" />
         <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/resources/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/cart/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_interface/src/main/java/com/pinyougou/user/service/AddressService.java" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_service/src/main/java/com/pinyougou/user/service/impl/AddressServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/cart/controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/src/main/java/util/IdWorker.java" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/src/main/java/com/pinyougou/order/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/cart/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/UploadController.java" />
       </list>
     </option>
   </component>
@@ -271,10 +291,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-54" />
-    <option name="y" value="5" />
+    <option name="x" value="-63" />
+    <option name="y" value="2" />
     <option name="width" value="1938" />
-    <option name="height" value="1071" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -307,6 +327,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,60 +341,25 @@
             <path>
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="casclient_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFSDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="casclient_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFSDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="casclient_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="casclient_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFSDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFSDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -378,18 +367,46 @@
             <path>
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFSDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFSDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFSDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFSDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFSDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -398,17 +415,33 @@
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -417,242 +450,44 @@
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast65" type="462c0819:PsiDirectoryNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast65" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast65" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="D:/黑马程序员课程资料/电商项目/电商教学代码/day 15 itcast62" />
+    <property name="last_opened_file_path" value="D:/1.学习资料/面试题/练习代码/multithreading" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -663,25 +498,26 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_user_web\src\main\resources\spring" />
-      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_shop_web\src\main\resources\spring" />
-      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_page_service\src\main\webapp\WEB-INF\ftl" />
-      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_page_service\src\main\resources\spring" />
-      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_page_service\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="util" />
-      <recent name="entity" />
-      <recent name="" />
-      <recent name="com.pinyougou.manager.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_user_web\src\main\webapp\WEB-INF" />
       <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\casclient_demo0\src\main\webapp" />
       <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\casclient_demo\src\main\webapp" />
       <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\casclient_demo\src\main\webapp\WEB-INF" />
       <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_search_service\src\main\resources\spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
+      <recent name="com.pinyougou.cart.controller" />
+      <recent name="com.pinyougou.user.service.impl" />
+      <recent name="com.pinyougou.user.service" />
+      <recent name="entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_user_web\src\main\resources\spring" />
+      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_shop_web\src\main\resources\spring" />
+      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_page_service\src\main\webapp\WEB-INF\ftl" />
+      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_page_service\src\main\resources\spring" />
+      <recent name="D:\temp\git\repository_pinyougou\pinyougou_project\itcast65\pyg_parent\pyg_page_service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -696,7 +532,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.pyg_cart_web9107">
+  <component name="RunManager" selected="Maven.pyg_portal_web9103">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -865,7 +701,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="pyg_content_service" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="pyg_content_service9002" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -911,7 +747,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="pyg_page_service" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="pyg_page_service9005" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -934,7 +770,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="pyg_portal_web" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="pyg_portal_web9103" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -957,7 +793,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="pyg_search_service" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="pyg_search_service9004" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -980,7 +816,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="pyg_search_web" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="pyg_search_web9104" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -1049,7 +885,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="pyg_sms_web" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="pyg_sms_web9002" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -1072,7 +908,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="pyg_user_service" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="pyg_user_service9006" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -1162,14 +998,14 @@
       <item index="0" class="java.lang.String" itemvalue="Maven.pyg_cart_service9007" />
       <item index="1" class="java.lang.String" itemvalue="Maven.pyg_cart_web9107" />
       <item index="2" class="java.lang.String" itemvalue="Maven.pyg_user_web9106" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.pyg_user_service" />
-      <item index="4" class="java.lang.String" itemvalue="Maven.pyg_sms_web" />
-      <item index="5" class="java.lang.String" itemvalue="Maven.pyg_page_service" />
-      <item index="6" class="java.lang.String" itemvalue="Maven.pyg_search_service" />
-      <item index="7" class="java.lang.String" itemvalue="Maven.pyg_search_web" />
-      <item index="8" class="java.lang.String" itemvalue="Maven.pyg_content_service" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.pyg_user_service9006" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.pyg_sms_web9002" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.pyg_page_service9005" />
+      <item index="6" class="java.lang.String" itemvalue="Maven.pyg_search_service9004" />
+      <item index="7" class="java.lang.String" itemvalue="Maven.pyg_search_web9104" />
+      <item index="8" class="java.lang.String" itemvalue="Maven.pyg_content_service9002" />
       <item index="9" class="java.lang.String" itemvalue="Maven.pyg_manager_web9101" />
-      <item index="10" class="java.lang.String" itemvalue="Maven.pyg_portal_web" />
+      <item index="10" class="java.lang.String" itemvalue="Maven.pyg_portal_web9103" />
       <item index="11" class="java.lang.String" itemvalue="Maven.pyg_sellergoods_service9001" />
       <item index="12" class="java.lang.String" itemvalue="Maven.pyg_shop_web9102" />
       <item index="13" class="java.lang.String" itemvalue="Application.SmsDemo" />
@@ -1214,7 +1050,8 @@
       <workItem from="1541204095663" duration="22608000" />
       <workItem from="1541302082667" duration="14425000" />
       <workItem from="1541377107303" duration="21682000" />
-      <workItem from="1541461774051" duration="18989000" />
+      <workItem from="1541461774051" duration="20302000" />
+      <workItem from="1541547908432" duration="15851000" />
     </task>
     <servers />
   </component>
@@ -1251,10 +1088,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192318000" />
+    <option name="totallyTimeSpent" value="209482000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-54" y="5" width="1938" height="1071" extended-state="1" />
+    <frame x="-63" y="2" width="1938" height="1092" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1274,10 +1112,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37843785" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3783784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19111349" sideWeight="0.45791245" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19325481" sideWeight="0.45791245" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16541755" sideWeight="0.54208755" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1336,231 +1174,61 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/GoodsService.java</url>
+          <line>30</line>
+          <properties class="com.pinyougou.sellergoods.service.GoodsService" method="add">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itcast65/casclient_demo0/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/resources/spring/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/casclient_demo/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="977">
-          <caret line="70" column="74" lean-forward="false" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_dao/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="621">
+          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/src/main/java/com/pinyougou/user/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/resources/spring/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+        <state relative-caret-position="1472">
+          <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/fastDFSDemo/src/main/resources/fdfs_client.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/resources/config/fdfs_client.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/src/main/java/com/pinyougou/user/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/src/main/webapp/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/src/main/java/com/pinyougou/user/service/UserDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/src/main/resources/spring/security配置流程">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/resources/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="63" lean-forward="true" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6ef4d87b/42fc059f-e94e-49e3-8ac2-c0b844318ba0/pinyougoudb.tb_order">
+    <entry file="das://table:/6ef4d87b/42fc059f-e94e-49e3-8ac2-c0b844318ba0/pinyougoudb.tb_seller">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_web/src/main/resources/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6ef4d87b/42fc059f-e94e-49e3-8ac2-c0b844318ba0/pinyougoudb.tb_order_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java8.0/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="874" column="7" lean-forward="true" selection-start-line="874" selection-start-column="7" selection-end-line="874" selection-end-column="7" />
-          <folding>
-            <element signature="e#37053#37054#0" expanded="false" />
-            <element signature="e#37100#37101#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_pojo/src/main/java/entity/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/webapp/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2599">
-          <caret line="148" column="18" lean-forward="true" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="18" />
+        <state relative-caret-position="-1311">
+          <caret line="15" column="81" lean-forward="false" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/src/main/java/util/CookieUtil.java">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/webapp/js/service/addressService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="-69">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_interface/src/main/java/com/pinyougou/cart/service/CartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/admin/seller.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2461">
-          <caret line="67" column="52" lean-forward="true" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/admin/seller_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="68" lean-forward="true" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/js/base_pagination.js">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/webapp/js/service/cartService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1568,47 +1236,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/js/base.js">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/js/service/sellerService.js">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_pojo/src/main/java/com/pinyougou/pojo/TbGoods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        <state relative-caret-position="-115">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/js/controller/sellerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="80" column="54" lean-forward="true" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
-          <folding />
+    <entry file="das://table:/6ef4d87b/42fc059f-e94e-49e3-8ac2-c0b844318ba0/pinyougoudb.tb_goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/js/service/brandService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/webapp/js/controller/baseController.js">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/webapp/js/service/orderService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1616,106 +1267,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/webapp/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.1.0.RELEASE/spring-security-core-4.1.0.RELEASE-sources.jar!/org/springframework/security/core/userdetails/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/casclient_demo/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.7.2.RELEASE/spring-data-redis-1.7.2.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/user/service/UserDetailServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="32" />
+          <caret line="82" column="45" lean-forward="true" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/src/main/resources/properties/redis-config.properties">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_dao/src/main/resources/com/pinyougou/mapper/TbGoodsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-1495">
+          <caret line="19" column="72" lean-forward="true" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <folding>
+            <marker date="1539828092067" expanded="true" signature="4571:4674" ph="select from tb_goods" />
+            <marker date="1539828092067" expanded="true" signature="4758:4815" ph="delete from tb_goods... " />
+            <marker date="1539828092067" expanded="true" signature="4915:4935" ph="delete from tb_goods... " />
+            <marker date="1539828092067" expanded="true" signature="8941:8970" ph="select count... tb_goods" />
+            <marker date="1539828092067" expanded="true" signature="11200:12131" ph="update tb_goods... " />
+            <marker date="1539828092067" expanded="true" signature="12339:13959" ph="update tb_goods... " />
+            <marker date="1539828092067" expanded="true" signature="14055:14877" ph="update tb_goods... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="73" column="53" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/webapp/js/service/goodsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_pojo/src/main/java/entity/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_interface/src/main/java/com/pinyougou/order/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="483">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_manager_web/src/main/resources/spring/spring-security.xml">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/cart/controller/AddressController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        <state relative-caret-position="-1697">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/src/main/java/com/pinyougou/cart/service/impl/CartServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_service/src/main/java/com/pinyougou/user/service/impl/AddressServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="-1743">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/webapp/js/controller/cartController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_interface/src/main/java/com/pinyougou/user/service/AddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-501">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/src/main/resources/spring/applicationContext-tx.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_pojo/src/main/java/entity/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/src/main/java/com/pinyougou/order/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1398">
+          <caret line="141" column="7" lean-forward="true" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/src/main/java/util/IdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_user_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_sms_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_search_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_portal_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1728,18 +1475,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/cart/controller/CartController.java">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="49" column="43" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="43" />
+        <state relative-caret-position="373">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/resources/spring/spring-security.xml">
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_order_service/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        <state relative-caret-position="483">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/cart/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_page_service/src/main/java/com/pinyougou/page/service/impl/ItemPageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1068">
+          <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_content_service/src/main/java/com/pinyougou/content/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_web/src/main/java/com/pinyougou/cart/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/fastDFSDemo/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/fastDFSDemo/src/main/java/img/test1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/fastDFSDemo/src/main/java/cn/itcast/demo/FastDFSDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="29" column="111" lean-forward="false" selection-start-line="29" selection-start-column="111" selection-end-line="29" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1573">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_cart_service/src/main/java/com/pinyougou/cart/service/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_common/src/main/java/util/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#391#411#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast65/pyg_parent/pyg_shop_web/src/main/webapp/js/controller/goodsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="215" column="70" lean-forward="false" selection-start-line="215" selection-start-column="70" selection-end-line="215" selection-end-column="70" />
           <folding />
         </state>
       </provider>
